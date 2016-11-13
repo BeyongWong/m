@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="新闻"  android:icon="@mipmap/n" android:checked="true" android:id="@+id/newsItem"></item>
+        <item android:title="图片" android:icon="@mipmap/p" android:id="@+id/picItem"></item>
+        <item android:title="天气" android:icon="@mipmap/w" android:id="@+id/wheatherItem"></item>
+        <item android:title="设置" android:icon="@mipmap/s" android:id="@+id/settingItem"></item>
+
+    </group>
+</menu>
